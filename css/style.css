@@ -1,9 +1,16 @@
 body {
     background-color: #FAF3E6;
-    font-family: 'Raleway', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
 
     font-family: 'MuseoModerno', cursive;
+    font-size: 40pt;
+    text-align: center;
+    color: #8E9DAD;
+}
+.hero {
+    font-family: font-family: 'Cedarville Cursive', cursive;
+    font-size: 30pt;
 }

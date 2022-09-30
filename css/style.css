@@ -1,6 +1,6 @@
 body {
     background-color: #FAF3E6;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -12,5 +12,20 @@ header {
 }
 .hero {
     font-family: font-family: 'Cedarville Cursive', cursive;
-    font-size: 30pt;
+    font-size: 27pt;
+    color: #ad9c7d
+}
+
+.hobbies1 {
+    color: #acc6e4;
+    font-size: 15pt;
+}
+
+.hobbies2 {
+    color: #acc6e4;
+    font-size: 15pt;
+}
+
+.footer {
+    text-align: right;
 }

@@ -96,6 +96,29 @@ figcaption {
     padding: 10px;
 }
 
+/*Literature Section*/
+
+#lit h2 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#lit {
+    color: #CCA152;
+    border: double #58626E;
+    padding: 20px;
+    margin: 25px;
+    background-image: linear-gradient(#1D2538, #475B74)
+}
+
+#lit p:first-of-type::first-letter {
+    color: #9DB3BE;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    padding: 10px;
+}
+
 /*Footer*/
 
 footer {

@@ -106,7 +106,7 @@ figcaption {
 
 #lit {
     color: #CCA152;
-    border: double #58626E;
+    border: solid #58626E 5px;
     padding: 20px;
     margin: 25px;
     background-image: linear-gradient(#1D2538, #475B74)

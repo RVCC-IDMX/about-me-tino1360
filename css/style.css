@@ -1,31 +1,105 @@
-body {
-    background-color: #FAF3E6;
-    font-family: 'Raleway', sans-serif;
-}
+/*Header Section*/
 
 header {
 
     font-family: 'MuseoModerno', cursive;
     font-size: 40pt;
     text-align: center;
-    color: #8E9DAD;
+    color: #58626E;
 }
-.hero {
+
+h2 {
+    color: #9DB3BE;
+    font-size: 23pt;
+}
+
+/*Body Section*/
+
+body {
+    background-color: #314657;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Hero Section*/
+
+#hero {
     font-family: font-family: 'Cedarville Cursive', cursive;
     font-size: 27pt;
-    color: #ad9c7d
+    color: #58626E;
 }
 
-.hobbies1 {
-    color: #acc6e4;
+/*Facts Section*/
+
+#facts {
+    color: #CCA152;
     font-size: 15pt;
 }
 
-.hobbies2 {
-    color: #acc6e4;
+#facts li:nth-child(odd) {
+    color: #9DB3BE;
+}
+
+/*Biography Section*/
+
+#bio {
+    color: #CCA152;
     font-size: 15pt;
 }
 
-.footer {
-    text-align: right;
+#bio li:nth-child(odd) {
+    color: #9DB3BE;
+}
+
+/*Hobbies Section*/
+
+#hobbies {
+
+    margin-top: 40px;
+    color: #CCA152;
+    border: 5px solid #58626E;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 15pt;
+
+}
+
+#hobbylist {
+    color: #CCA152;
+    font-size: 15pt;
+}
+
+#hobbylist h2 {
+    margin-left: 15px;
+}
+
+#hobbylist li:nth-child(2) {
+    color: #9DB3BE;
+}
+  
+
+/*Gallery Section*/
+
+#gallery {
+
+    margin-top: 40px;
+    border: solid 10px;
+    padding: 20px;
+    border-color: #58626E;
+    border-style: dotted;
+    text-align: center;
+}
+
+figcaption {
+
+    color: #CCA152;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Footer*/
+
+footer {
+    margin-top: 20px;
+    text-align: left;
+    color: white;
 }

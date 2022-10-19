@@ -52,6 +52,12 @@ body {
 
 /*Hobbies Section*/
 
+.hobbies {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
 #hobbies {
 
     margin-top: 40px;
@@ -125,4 +131,10 @@ footer {
     margin-top: 20px;
     text-align: left;
     color: white;
+}
+
+@media screen and (min-width: 60em) {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
 }

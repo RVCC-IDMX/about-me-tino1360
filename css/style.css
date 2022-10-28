@@ -95,11 +95,11 @@ body {
 
 #gallery {
     margin-top: 40px;
-    border: solid 10px;
     padding: 20px;
     border-color: #58626E;
     border-style: dotted;
     text-align: center;
+    border-width: 8px;
 }
 
 figcaption {
@@ -137,6 +137,16 @@ figcaption {
     padding: 10px;
 }
 
+/*Video Section*/
+
+#myVideo {
+    text-align: center;
+    border-color: #58626E;
+    border-style: dotted;
+    padding-bottom: 1.6em;
+    border-width: 8px;
+}
+
 /*Footer*/
 
 footer {
@@ -169,6 +179,9 @@ footer {
         columns: 40rem;
     }
 
+    #myVideo iframe {
+        max-width: 100%;
+    }
 }
 
 @media screen and (min-width: 100em) {

@@ -147,6 +147,21 @@ figcaption {
     border-width: 8px;
 }
 
+/*Form Section*/
+
+#contact {
+    text-align: center;
+}
+
+fieldset {
+    color: #CCA152;
+}
+
+#formelements {
+    display: grid;
+    row-gap: .5em;
+}
+
 /*Footer*/
 
 footer {

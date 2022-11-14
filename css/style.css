@@ -149,17 +149,44 @@ figcaption {
 
 /*Form Section*/
 
+#formfield {
+    display: grid;
+    border: double white 2.5px;
+    border-spacing: 1em;
+    border-radius: 1rem;
+    border-width: 5px;
+    padding:20px;
+}
+#contactForm {
+    max-width: 1100px;
+    margin:0px auto;
+}
+
+#contactForm input[type=submit] {
+    max-width:200px;
+    margin: auto;
+    background-color: #CCA152;
+    color: white;
+    border: solid #CCA152;
+}
+
+#contactForm label {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#reply {
+    border: solid white 2.5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #contact {
     text-align: center;
 }
 
 fieldset {
     color: #CCA152;
-}
-
-#formelements {
-    display: grid;
-    row-gap: .5em;
 }
 
 /*Footer*/

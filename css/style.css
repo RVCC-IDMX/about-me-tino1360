@@ -8,6 +8,13 @@ header {
     color: #58626E;
 }
 
+.logo-title {
+
+    color: #CCA152;
+    margin: 1em;
+
+}
+
 h2 {
     color: #9DB3BE;
     font-size: 23pt;
@@ -197,6 +204,12 @@ footer {
     text-align: left;
     color: white;
 }
+
+footer img {
+    float: right;
+    margin-right: 1em;
+}
+
 
 /*Media Queries*/
 

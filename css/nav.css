@@ -46,9 +46,10 @@ main {
     display:block;
     position: absolute;
     top: 0;
-    /* left: 0; */
     right: 0;
     margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1.62em;
     align-items: center;
 }
 

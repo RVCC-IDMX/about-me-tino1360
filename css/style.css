@@ -266,4 +266,8 @@ footer img {
     #gallery figure {
         display: block;
     }
+
+    #myVideo iframe {
+        max-width: 100%;
+    }
 }

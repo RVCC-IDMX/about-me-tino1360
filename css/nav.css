@@ -27,7 +27,7 @@ main {
 .navbar {
     background: #333;
     color: whitesmoke;
-    display: flex;
+    display:flex;
     flex-direction: column;
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -38,37 +38,50 @@ main {
 
 
 .nav-toggle {
-
     display: none;
 }
 
 .nav-toggle-label {
-
+    z-index:1000;
+    display:block;
     position: absolute;
     top: 0;
-    left: 0;
+    /* left: 0; */
+    right: 0;
     margin-left: 1em;
-    height: 100%;
-    display: flex;
     align-items: center;
 }
 
+/*
 .nav-toggle-label span,
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
-
     display: block;
     background: white;
     height: 2px;
     width: 2em;
     border-radius: 2px;
+}*/
 
+.navbar-links {
+    display:none;
 }
-
-.nav-toggle:checked ~ nav {
-   
+#nav-toggle {
+    display:none;
+}
+#nav-toggle:checked ~ .navbar-links {
     color: whitesmoke;
     display: block;
+}
+
+#close {
+    display:none;
+}
+#nav-toggle:checked ~ .nav-toggle-label #close {
+    display:inline;
+}
+#nav-toggle:checked ~ .nav-toggle-label #hamburger {
+    display:none;
 }
 
 
@@ -127,6 +140,11 @@ such that no text wraps
 */
 
 @media screen and (min-width: 60rem) {
+    
+    .nav-toggle-label {
+        display:none;
+    }
+    
     .navbar-links {
         display: flex;
         justify-content: space-between;

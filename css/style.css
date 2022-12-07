@@ -112,8 +112,7 @@ body {
 }
 
 #gallery {
-    margin-top: 40px;
-    padding: 20px;
+    padding: 15px;
     border-color: #58626E;
     border-style: dotted;
     text-align: center;
@@ -248,7 +247,7 @@ footer img {
     }
 
     #myVideo iframe {
-        max-width: 100%;
+        width: 100%;
     }
 }
 
@@ -268,6 +267,6 @@ footer img {
     }
 
     #myVideo iframe {
-        max-width: 100%;
+        width: 100%;
     }
 }
